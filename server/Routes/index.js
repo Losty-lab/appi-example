@@ -2,7 +2,7 @@ const userFake=require('../usersFake')
 
 module.exports=(app)=>{
 
-    app.get("/",(req,res)=>{
+    app.get("/api",(req,res)=>{
         console.log('INSIDE REQ')
 
         //const userSend=JSON.stringify(userFake)
